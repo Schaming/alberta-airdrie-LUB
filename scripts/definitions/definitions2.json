@@ -1,0 +1,26 @@
+[
+  {
+    "termID": "Abutting",
+    "terms": "Abutting",
+    "text": "means: Immediately contiguous to or physically touching, and when used with respect to a lot or site means that the lot or site physically touches upon another lot, site or piece of land, and shares a property line or boundary with it.",
+    "type": "General",
+    "image": "",
+    "bylaw_id_pointer": ""
+  },
+  {
+    "termID": "Accessory Building",
+    "terms": "Accessory Building",
+    "text": "means:A building or structure that is subordinate or incidental to the principal building, and located on the same site as the principal building or use. Typical uses include garages, sheds, and other incidental storage supporting the principal building or use on the site. Where a structure is attached to a principal building on a site by a roof, an enclosed structure, a floor or and the structure, it is considered part of the principal building.  foundation, or any structure below grade allowing access between the building",
+    "type": "General",
+    "image": "",
+    "bylaw_id_pointer": ""
+  },
+  {
+    "termID": "Accessory Suite",
+    "terms": "Accessory Suite",
+    "text": "means: A secondary dwelling unit, which may include any of the following:  (a) Dwelling, Garage Suite (b) Dwelling, Garden Suite  (c) Dwelling, Secondary Suite",
+    "type": "General",
+    "image": "",
+    "bylaw_id_pointer": ""
+  }
+]

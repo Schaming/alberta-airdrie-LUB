@@ -19,7 +19,7 @@ type DefinitionRow = {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_PATH = path.resolve(__dirname, './definitions/definitions2.json');
+const DATA_PATH = path.resolve(__dirname, './definitions/definitions2.json'); //this is the import from JSON file
 
 type DefinitionType = 'General' | 'Use' | 'General / Use';
 
