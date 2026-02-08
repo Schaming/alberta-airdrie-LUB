@@ -1,0 +1,714 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.9.0",
+  "name": "Dwelling Two Definitions",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9193743899982119863,
+    "filename": "Dwelling Two Definitions.pdf",
+    "uri": null
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "parent": null,
+    "children": [],
+    "content_layer": "furniture",
+    "meta": null,
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "parent": null,
+    "children": [
+      {
+        "cref": "#/groups/0"
+      },
+      {
+        "cref": "#/texts/8"
+      },
+      {
+        "cref": "#/groups/1"
+      },
+      {
+        "cref": "#/texts/10"
+      },
+      {
+        "cref": "#/groups/2"
+      },
+      {
+        "cref": "#/texts/12"
+      },
+      {
+        "cref": "#/texts/13"
+      },
+      {
+        "cref": "#/texts/14"
+      },
+      {
+        "cref": "#/texts/15"
+      },
+      {
+        "cref": "#/texts/16"
+      },
+      {
+        "cref": "#/texts/17"
+      }
+    ],
+    "content_layer": "body",
+    "meta": null,
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/0"
+        },
+        {
+          "cref": "#/texts/1"
+        },
+        {
+          "cref": "#/texts/2"
+        },
+        {
+          "cref": "#/texts/3"
+        },
+        {
+          "cref": "#/texts/4"
+        },
+        {
+          "cref": "#/texts/5"
+        },
+        {
+          "cref": "#/texts/6"
+        },
+        {
+          "cref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.4,
+            "t": 741.254,
+            "r": 560.652,
+            "b": 707.21,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            274
+          ]
+        }
+      ],
+      "orig": "(a)  One side yard setback for the principal building may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a minimum 1.5 metre private maintenance easement that provides for:",
+      "text": "(a)  One side yard setback for the principal building may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a minimum 1.5 metre private maintenance easement that provides for:",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.359,
+            "t": 706.802,
+            "r": 560.622,
+            "b": 684.163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "i. A 0.30 metre eave encroachment easement with the requirement that the eaves must not be closer than 0.90 metres to the eaves on the building on the adjacent parcel, and;",
+      "text": "A 0.30 metre eave encroachment easement with the requirement that the eaves must not be closer than 0.90 metres to the eaves on the building on the adjacent parcel, and;",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": true,
+      "marker": "i."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 142.197,
+            "t": 683.755,
+            "r": 366.819,
+            "b": 672.639,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "ii. A 0.60 metre footing encroachment easement:",
+      "text": "A 0.60 metre footing encroachment easement:",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": true,
+      "marker": "ii."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.409,
+            "t": 672.231,
+            "r": 560.498,
+            "b": 649.592,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "(b)  All roof drainage from the building is discharged through eavestroughs and downspouts onto the parcel on which the building is located.",
+      "text": "(b)  All roof drainage from the building is discharged through eavestroughs and downspouts onto the parcel on which the building is located.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.409,
+            "t": 649.303,
+            "r": 560.632,
+            "b": 615.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "(c)  Except for the provided encroachments for eaves and footings described above, no projections or encroachments  shall  be  permitted  for  access,  architectural,  or  amenity  features  described  in Section 7.25 .",
+      "text": "(c)  Except for the provided encroachments for eaves and footings described above, no projections or encroachments  shall  be  permitted  for  access,  architectural,  or  amenity  features  described  in Section 7.25 .",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.399,
+            "t": 614.732,
+            "r": 560.637,
+            "b": 580.569,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            242
+          ]
+        }
+      ],
+      "orig": "(d)  Where a side yard setback for the principal building is reduced to zero metres in accordance with the above provision, the minimum side yard setback for the associated Accessor Building may have the same side yard reduced to zero metres.",
+      "text": "(d)  Where a side yard setback for the principal building is reduced to zero metres in accordance with the above provision, the minimum side yard setback for the associated Accessor Building may have the same side yard reduced to zero metres.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.399,
+            "t": 580.28,
+            "r": 560.676,
+            "b": 546.118,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "(e)  Fences  are  supported  in  accordance  with Section  7.14 but  shall  not  block  the  neighbouring properties' right to access the areas covered by the maintenance easement described in subsection (16), above.",
+      "text": "(e)  Fences  are  supported  in  accordance  with Section  7.14 but  shall  not  block  the  neighbouring properties' right to access the areas covered by the maintenance easement described in subsection (16), above.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 104.379,
+            "t": 545.71,
+            "r": 560.63,
+            "b": 523.071,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "(f) No dwelling unit may provide a building access on the side of the dwelling where the side yard has been reduced to zero metres in accordance with this section.",
+      "text": "(f) No dwelling unit may provide a building access on the side of the dwelling where the side yard has been reduced to zero metres in accordance with this section.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.942,
+            "t": 509.406,
+            "r": 322.881,
+            "b": 500.575,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Provisions for Utility Infrastructure and Rights of Way:",
+      "text": "Provisions for Utility Infrastructure and Rights of Way:",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.942,
+            "t": 499.736,
+            "r": 560.636,
+            "b": 454.049,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            365
+          ]
+        }
+      ],
+      "orig": "(16)  Notwithstanding the minimum dwelling width and required setbacks outlined in this district, individual lots within a subdivision phase shall be designed to accommodate any required utilities, infrastructure, rights of way, and/or easements without creating a conflict with the setbacks and associated building envelope of the principal or accessory buildings.",
+      "text": " Notwithstanding the minimum dwelling width and required setbacks outlined in this district, individual lots within a subdivision phase shall be designed to accommodate any required utilities, infrastructure, rights of way, and/or easements without creating a conflict with the setbacks and associated building envelope of the principal or accessory buildings.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": true,
+      "marker": "(16)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.942,
+            "t": 440.384,
+            "r": 118.427,
+            "b": 431.553,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Definitions",
+      "text": "Definitions",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.942,
+            "t": 430.713,
+            "r": 560.538,
+            "b": 408.074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            177
+          ]
+        }
+      ],
+      "orig": "(17)  Unless otherwise defined in this Direct Control Bylaw, all words and uses shall be defined as per Part One (Definitions) of the City of Airdrie Land Use Bylaw, as amended.",
+      "text": " Unless otherwise defined in this Direct Control Bylaw, all words and uses shall be defined as per Part One (Definitions) of the City of Airdrie Land Use Bylaw, as amended.",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": true,
+      "marker": "(17)"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.039,
+            "t": 395.776,
+            "r": 303.114,
+            "b": 384.661,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Traditional Single Detached Dwelling means:",
+      "text": "Traditional Single Detached Dwelling means:",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.039,
+            "t": 384.256,
+            "r": 555.04,
+            "b": 350.213,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            279
+          ]
+        }
+      ],
+      "orig": "A sub-category of the 'Single Detached Dwelling' land use - where dwelling provides a lot width of at least 11.0m, and generally in keeping the minimum standards of the R1, Single Detached Residential District in Land Use Bylaw No. B-01/2016, as may be amended from time to time.",
+      "text": "A sub-category of the 'Single Detached Dwelling' land use - where dwelling provides a lot width of at least 11.0m, and generally in keeping the minimum standards of the R1, Single Detached Residential District in Land Use Bylaw No. B-01/2016, as may be amended from time to time.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.04,
+            "t": 337.813,
+            "r": 289.336,
+            "b": 326.698,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Narrow Single Detached Dwelling means:",
+      "text": "Narrow Single Detached Dwelling means:",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.03,
+            "t": 326.293,
+            "r": 555.034,
+            "b": 303.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "A sub-category of the 'Single Detached Dwelling' land use - where the dwelling provides a lot width equal to or less than 10.36m includes a garage up to 6.1m wide.",
+      "text": "A sub-category of the 'Single Detached Dwelling' land use - where the dwelling provides a lot width equal to or less than 10.36m includes a garage up to 6.1m wide.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 496.201,
+            "t": 290.394,
+            "r": 556.446,
+            "b": 283.572,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Bylaw B-37/2022",
+      "text": "Bylaw B-37/2022",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.4,
+            "t": 54.71900000000005,
+            "r": 179.28,
+            "b": 32.40899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "City of Airdrie Land Use Bylaw B-01/2016",
+      "text": "City of Airdrie Land Use Bylaw B-01/2016",
+      "formatting": null,
+      "hyperlink": null
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "image": null,
+      "page_no": 1
+    }
+  },
+  "metadata": {
+    "source_file": "C:\\Users\\15877\\alberta-airdrie-LUB\\scripts\\pdfs\\Dwelling Two Definitions.pdf"
+  }
+}
