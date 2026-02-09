@@ -53,7 +53,7 @@ also install "pip install hf_xet" in the command line
    ```bash
    python docling2JSON-convertor.py
 3. **Run Cleaner**
-    for each converted file you will need to clean the data, this is a good point to do quality checks for errors, adjust script and rerun if data is wrong, if there are few errors adjust manually
+    for each converted file you will need to clean the data, this is a good point to do quality checks for errors, adjust script and rerun if data is wrong, if there are very few errors you could adjust manually
 3B **Combine files**
     If there are multiple definition files you can combine them here or you can import then go back to the cleaning stage for each one. 
 4. **Run Import**

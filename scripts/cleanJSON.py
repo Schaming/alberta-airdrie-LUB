@@ -88,7 +88,7 @@ def save_definition(output_list, term, text_parts):
         })
 
 # Use raw string (r"") for Windows paths
-input_file = r"C:\Users\15877\alberta-airdrie-LUB\scripts\docling_json\Airdrie LUB Sign Definitions.json"
-output_file = "converted_definitions.json"
+input_file = r"C:\Users\15877\alberta-airdrie-LUB\scripts\docling_json\Aidrie LUB Definitions Only.json"
+output_file = "converted_definitions_only.json"
 
 convert_airdrie_to_standard(input_file, output_file)

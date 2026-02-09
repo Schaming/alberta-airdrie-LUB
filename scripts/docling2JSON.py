@@ -1,62 +1,133 @@
-from docling.document_converter import DocumentConverter
-from pathlib import Path
 import json
+import os
+import re
 
-def pdf_to_docling_json(pdf_path: str, converter: DocumentConverter, output_dir="docling"):
-    """
-    Converts a single PDF to a Docling JSON file. 
-    Accepts an existing converter instance to save memory/time.
-    """
-    pdf_path = Path(pdf_path)
+SEE_PATTERN = re.compile(
+    r"^see\s+[\"']?([^\"'.]+)[\"']?\.?$",
+    re.IGNORECASE
+)
 
-    if not pdf_path.exists():
-        raise FileNotFoundError(f"PDF not found: {pdf_path.resolve()}")
+BYLAW_LINE_PATTERN = re.compile(
+    r"^Bylaw\s+.+",
+    re.IGNORECASE
+)
 
-    output_dir = Path(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+ALL_CAPS_PATTERN = re.compile(r"^[A-Z\s]{5,}$")
 
-    print(f"[INFO] Converting PDF: {pdf_path.name}...")
-
-    # Reuse the passed converter
-    result = converter.convert(str(pdf_path))
-    doc = result.document
-
-    # Export to dict
-    json_obj = doc.model_dump()
-    json_obj["metadata"] = {"source_file": str(pdf_path.resolve())}
-
-    output_path = output_dir / (pdf_path.stem + ".json")
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(json_obj, f, indent=2)
-
-    print(f"[SUCCESS] Saved Docling JSON: {output_path.resolve()}")
-    return output_path
-
-
-def batch_convert_folder(pdf_folder: str, output_dir="docling"):
-    pdf_folder = Path(pdf_folder)
-    if not pdf_folder.exists() or not pdf_folder.is_dir():
-        raise FileNotFoundError(f"PDF folder not found: {pdf_folder.resolve()}")
-
-    pdf_files = list(pdf_folder.glob("*.pdf"))
-    if not pdf_files:
-        print(f"[INFO] No PDF files found in folder: {pdf_folder.resolve()}")
+def convert_airdrie_to_standard(input_path, output_path):
+    if not os.path.exists(input_path):
+        print(f"Error: Could not find file at {input_path}")
         return
 
-    # Initialize the converter ONCE here
-    print("[INFO] Initializing Docling models...")
-    converter = DocumentConverter()
+    with open(input_path, "r", encoding="utf-8") as f:
+        source_data = json.load(f)
 
-    for pdf_file in pdf_files:
-        try:
-            pdf_to_docling_json(pdf_file, converter, output_dir)
-        except Exception as e:
-            print(f"[ERROR] Failed to convert {pdf_file.name}: {e}")
+    texts = source_data.get("texts", [])
 
+    definitions = {}
+    alias_map = {}
 
-if __name__ == "__main__":
-    batch_convert_folder(
-        r"C:\Users\15877\alberta-airdrie-LUB\scripts\pdfs", 
-        output_dir="docling_json"
-    )
+    current_term = None
+    current_text_parts = []
+    current_bylaw_pointer = ""
+
+    for item in texts:
+        content = item.get("text", "").strip()
+        is_bold = item.get("bold", False)
+
+        if not content:
+            continue
+
+        # Capture bylaw footer verbatim
+        if BYLAW_LINE_PATTERN.match(content):
+            current_bylaw_pointer = content
+            continue
+
+        # -------------------------
+        # BOLD TERM = new definition
+        # -------------------------
+        if is_bold and not ALL_CAPS_PATTERN.match(content):
+            # Save previous definition
+            if current_term and current_text_parts:
+                save_definition(
+                    definitions,
+                    alias_map,
+                    current_term,
+                    current_text_parts,
+                    current_bylaw_pointer
+                )
+
+            # Clean term
+            term = content.rstrip(":").strip()
+            current_term = term
+            current_text_parts = []
+            current_bylaw_pointer = ""
+            continue
+
+        # -------------------------
+        # Definition body
+        # -------------------------
+        if current_term:
+            # Ignore page numbers
+            if content.lower().startswith("page "):
+                continue
+            current_text_parts.append(content)
+
+    # Save final definition
+    if current_term and current_text_parts:
+        save_definition(
+            definitions,
+            alias_map,
+            current_term,
+            current_text_parts,
+            current_bylaw_pointer
+        )
+
+    # -------------------------
+    # Merge aliases
+    # -------------------------
+    for alias, target in alias_map.items():
+        if target in definitions:
+            terms = set(definitions[target]["terms"].split("; "))
+            terms.add(alias)
+            definitions[target]["terms"] = "; ".join(sorted(terms))
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(list(definitions.values()), f, indent=2)
+
+    print(f"Success! Converted {len(definitions)} definitions to {output_path}")
+
+def save_definition(definitions, alias_map, term, text_parts, bylaw_pointer):
+    full_text = " ".join(text_parts).strip()
+
+    # Normalize leading "means"
+    full_text = re.sub(r"^means\s*:", "", full_text, flags=re.IGNORECASE).strip()
+
+    # Skip deleted definitions
+    if full_text.lower() == "deleted":
+        return
+
+    # Alias handling
+    see_match = SEE_PATTERN.match(full_text)
+    if see_match:
+        target = see_match.group(1).strip()
+        alias_map[term] = target
+        return
+
+    definitions[term] = {
+        "termID": term,
+        "terms": term,
+        "text": "means: " + full_text,
+        "type": "General",
+        "image": "",
+        "bylaw_id_pointer": bylaw_pointer
+    }
+
+# -------------------------
+# Run
+# -------------------------
+
+input_file = r"C:\Users\15877\alberta-airdrie-LUB\scripts\docling_json\Aidrie LUB Definitions Only.json"
+output_file = "converted_definitions_only.json"
+
+convert_airdrie_to_standard(input_file, output_file)
