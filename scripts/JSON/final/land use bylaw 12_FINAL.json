@@ -1,0 +1,79 @@
+[
+  {
+    "termID": "Aisle",
+    "terms": "Aisle",
+    "text": "the area used by motor vehicles for access to and from all off-street parking spaces, but does not include an access driveway.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Animal_Hospital",
+    "terms": "Animal Hospital",
+    "text": "a building where domestic animals (household pets), birds and livestock are kept for examination and/or treatment, including surgery, and where veterinary drugs and other related products, including pet food, may be sold.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Apartment",
+    "terms": "Apartment",
+    "text": "a single building consisting of three or more dwelling units on a parcel, where each dwelling unit has its principal access from a shared common entrance or hallway. Ground level dwelling units may have the principal access from a shared common  entrance or hallway or may have direct ground level access to the outside.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Automobile_Sales_and_Repair",
+    "terms": "Automobile Sales and Repair",
+    "text": "a business engaged primarily in car, truck,  farm  equipment, tractor and recreational vehicle sales and/or rental. Automobile repair, painting, part sales and body or glass services may also be included, provided that these services are fully contained within the principal building.  Automobile sales and vehicle servicing may exist separately as a use on a parcel or be combined.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Auto__Wrecking__Yard",
+    "terms": "Auto  Wrecking  Yard",
+    "text": "an  area  outside  of  an  enclosed  building  where  motor  vehicles  are disassembled, and where vehicles are not in operable condition and used parts of motor vehicles are stored and sold.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Backyard_Hen_Enclosure",
+    "terms": "Backyard Hen Enclosure",
+    "text": "the use of land for the keeping of  domestic hens for egg laying purposes where eggs are intended to be used for personal consumption.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Beekeeping",
+    "terms": "Beekeeping",
+    "text": "the management of hives of bees for the production of honey.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Boarder_or_Lodger",
+    "terms": "Boarder or Lodger",
+    "text": "a person who pays compensation to reside in a separate or shared sleeping room in a dwelling unit, and who is not a member of the family residing in the residence.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Boutique_Industrial",
+    "terms": "Boutique Industrial",
+    "text": "the design, processing, fabrication, assembly, treatment, and packaging of products entirely within a building or structure in a small-scale manner that creates minimal odors, noises or fumes and includes the incidental storage, sales and distribution of such products.  Typical products include, but are not limited to: electronic goods; food and bakery products; non-alcoholic beverages; printmaking;  household  appliances;  leather  products;  jewelry  and  clothing/apparel;  metal  work; furniture; small tool manufacturing; glass or ceramic production; and paper manufacturing.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Building",
+    "terms": "Building",
+    "text": "a structure located on the ground and supported by columns or walls which is designed, erected or intended for the support, enclosure or protection of persons, animals, or property.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Building_Inspector",
+    "terms": "Building Inspector",
+    "text": "the official or officials appointed by the Council of the Village of Ashcroft to administer and enforce the provisions of the BC Building Code, the Village of Ashcroft Building Regulations Bylaw and this Bylaw.",
+    "type": "General",
+    "image": ""
+  }
+]

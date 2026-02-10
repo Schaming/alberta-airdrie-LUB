@@ -1,0 +1,107 @@
+[
+  {
+    "termID": "Commercial_School",
+    "terms": "Commercial School",
+    "text": "Development providing technical instruction to students on a commercial basis and may incorporate services, Restaurant and retail sales related to the instruction function as Accessory Uses. This does not include commercial truck driving schools which are Commercial/Industrial Vehicles and Machinery - Sales, Rental, Service and Driving Instruction.  Education Facility and Fitness Facility are separate Uses.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Contiguous_Development_Area",
+    "terms": "Contiguous Development Area",
+    "text": "in the opinion of the Development Authority or Subdivision  Authority  land  that  is  adjacent  to  the  Parcel  being  developed  or  can  be considered to be adjacent if not for a highway, road, river or stream.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Corner_Bulb",
+    "terms": "Corner Bulb",
+    "text": "a widening of a turn in a Street so that it permits a Parcel Frontage (see below).",
+    "type": "General",
+    "image": "Corner_Bulb_img1.jpeg"
+  },
+  {
+    "termID": "Council",
+    "terms": "Council",
+    "text": "the duly elected Council of the City of Lethbridge.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Cul-de-sac_Bulb",
+    "terms": "Cul-de-sac Bulb",
+    "text": "a widening of the end of a Street so that it permits Parcels to front it and vehicles to turn around (see below).",
+    "type": "General",
+    "image": "Cul-de-sac_Bulb_img1.jpeg"
+  },
+  {
+    "termID": "Cultural_Facility",
+    "terms": "Cultural Facility",
+    "text": "Development for display, storage, restoration or events related to art,  literature,  music,  history  or  science  and  may  incorporate  Restaurants  and  Retail Stores  as  Accessory  Uses.  This  term  refers  to  Uses  such  as  art  galleries,  libraries, auditoriums, museums, archives and interpretive centres.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Designated_Officer",
+    "terms": "Designated Officer",
+    "text": "a designated officer as defined in the Act.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Development_Authority",
+    "terms": "Development Authority",
+    "text": "the Development Authority appointed pursuant to Bylaw 5801 The Subdivision and Development Authorities Bylaw, as amended or replaced from time to time.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Development_Officer",
+    "terms": "Development Officer",
+    "text": "Development Authority.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Development_Permit",
+    "terms": "Development Permit",
+    "text": "a document which authorizes Development pursuant to this Bylaw and which may include plans, drawings, specifications or other documents issued pursuant to this Bylaw which authorizes Development.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Development_Permit_Application_-_Refused",
+    "terms": "Development Permit Application - Refused",
+    "text": "a document issued pursuant to this Bylaw which refuses approval of the proposed Development and provides reasons for the refusal.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Discretionary_Use",
+    "terms": "Discretionary Use",
+    "text": "a Use of land or Buildings in a District for which a Development Permit may be issued, with or without conditions, at the discretion of the Development Authority.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "District",
+    "terms": "District",
+    "text": "an  area  designated  by  this  Bylaw  in  which  Permitted  Use  and/or Discretionary Uses and Development regulations are prescribed or, in the case of Direct Control Districts, determined by Council.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "District_Maps",
+    "terms": "District Maps",
+    "text": "the maps showing the division of the municipality into Districts as set out in PART 3 DIVISION 10, as amended.",
+    "type": "General",
+    "image": ""
+  },
+  {
+    "termID": "Drop-in_Centre",
+    "terms": "Drop-in Centre",
+    "text": "Development that provides daytime shelter to people whose wellbeing is at risk. This Use does not include overnight accommodation. Resource Centre, Food Bank and Soup Kitchen are separate Uses.",
+    "type": "General",
+    "image": ""
+  }
+]

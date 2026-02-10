@@ -1,0 +1,266 @@
+[
+  {
+    "type": "text",
+    "content": "Crematorium means a development fitted with equipment for the cremation of human remains and may include associated facilities for the preparation of a dead human body for internment or cremation and facilities associated with conducting funeral services.",
+    "coords": {
+      "l": 35.99,
+      "t": 755.67,
+      "r": 575.99,
+      "b": 714.8,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Crushing means the operation of an industrial gravel crusher designed to process larger raw aggregate into smaller materials.",
+    "coords": {
+      "l": 36.0,
+      "t": 706.0,
+      "r": 564.83,
+      "b": 679.63,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Day Care Facility means a development licensed by the Province to provide daytime personal care and education to children or elderly persons but does not include overnight accommodation. Typical facilities would include daycare or \"elder care\" centres, day nurseries, family day homes with care for seven (7) or more children, kindergarten centres, nursery schools and play schools.",
+    "coords": {
+      "l": 36.06,
+      "t": 670.95,
+      "r": 576.5,
+      "b": 615.44,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Data Processing Centre means a building, dedicated space within a building, or a group of buildings used to house computer systems and associated components for the digital transactions required for processing data. This includes, but is not limited to cryptocurrency, non-fungible tokens and blockchain transactions.",
+    "coords": {
+      "l": 36.09,
+      "t": 606.76,
+      "r": 572.84,
+      "b": 565.88,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Deck, Ground Level means an unenclosed amenity area of concrete, brick, wood, or other material that is constructed at grade or attached to a dwelling. The overall height of a ground level deck shall not exceed 0.6 m (2 ft) measured from finished grade to the top of the finished decking, as illustrated below:",
+    "coords": {
+      "l": 36.08,
+      "t": 557.08,
+      "r": 557.49,
+      "b": 516.2,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Deck, Raised means an unenclosed amenity area, of wood frame or other construction, which may be attached to a dwelling.  The overall height of a raised deck is greater than 0.6 m (2 ft) measured from finished grade to the top of the finished decking, as illustrated below:",
+    "coords": {
+      "l": 36.08,
+      "t": 327.05,
+      "r": 570.24,
+      "b": 286.17,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "Development means",
+    "coords": {
+      "l": 35.99,
+      "t": 755.67,
+      "r": 144.16,
+      "b": 743.35,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "An excavation or stockpile and the creation of either of them;",
+    "coords": {
+      "l": 35.99,
+      "t": 733.1,
+      "r": 370.33,
+      "b": 723.31,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "A building or an addition to or replacement or repair of a building and the construction or placing of any of them in, on, over or under land;",
+    "coords": {
+      "l": 36.02,
+      "t": 715.58,
+      "r": 574.16,
+      "b": 691.15,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "A change of use of land or a building or an act done in relation to land or a building that results in or is likely to result in a change in the use of the land or building; or",
+    "coords": {
+      "l": 36.06,
+      "t": 683.42,
+      "r": 569.35,
+      "b": 659.11,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "A change in intensity of use of land or a building or and act done in relation to land or a building that results in or is likely to result in a change in the intensity of use of the land or building.",
+    "coords": {
+      "l": 36.18,
+      "t": 651.38,
+      "r": 559.67,
+      "b": 626.95,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Provided that a development permit is not required for those developments listed under Section 17.",
+    "coords": {
+      "l": 36.28,
+      "t": 619.22,
+      "r": 520.91,
+      "b": 609.43,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Development Authority means a Red Deer County Development Officer or Red Deer County Municipal Planning Commission or both.",
+    "coords": {
+      "l": 36.31,
+      "t": 600.75,
+      "r": 547.47,
+      "b": 574.39,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Development Officer means the person appointed to the office established by this Bylaw.",
+    "coords": {
+      "l": 36.33,
+      "t": 565.71,
+      "r": 478.44,
+      "b": 553.39,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Development Permit means a document authorizing the commencement of a development pursuant to the provision of this Bylaw.",
+    "coords": {
+      "l": 36.33,
+      "t": 545.06,
+      "r": 562.87,
+      "b": 518.71,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Discretionary Use means the use of land or of a building that is listed in the column captioned Discretionary Uses in a table of uses for a land use district in this Bylaw, and for which a development permit may be issued.",
+    "coords": {
+      "l": 36.38,
+      "t": 510.02,
+      "r": 576.75,
+      "b": 483.66,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Driveway means a private road that provides vehicle access from an individual lot or site to a public road.",
+    "coords": {
+      "l": 36.38,
+      "t": 474.86,
+      "r": 553.05,
+      "b": 462.54,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Duplex means a residential building containing two dwelling units located side by side or one above the other.",
+    "coords": {
+      "l": 36.0,
+      "t": 454.35,
+      "r": 574.16,
+      "b": 442.03,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Dwelling Unit means a complete building or self-contained portion of a building used by a household, containing sleeping, cooking and sanitary facilities intended as a permanent residence and having an independent entrance either directly from the outside of the building or through a common area inside the building.",
+    "coords": {
+      "l": 36.06,
+      "t": 433.83,
+      "r": 550.16,
+      "b": 378.31,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Electrical Vehicle Charging Station (EV Charger) means a piece of equipment that supplies electrical power for a charging plug-in for electric vehicles. This may include but is not limited to hybrids or electric, vehicles, trucks and/or buses.",
+    "coords": {
+      "l": 36.06,
+      "t": 369.63,
+      "r": 577.12,
+      "b": 328.75,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Emergency Service means a public facility used by fire protection, police, ambulance, correctional or other such services as a base of operations.",
+    "coords": {
+      "l": 36.08,
+      "t": 320.07,
+      "r": 561.18,
+      "b": 293.59,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Environmental Review means a review of proposed development within a defined geographic area prepared by a qualified environmental professional that identifies and assesses the environmental significance and sensitivity of existing vegetation, wetlands, other water features, wildlife habitat and unique physical features. Recommendations regarding the protection of environmental features should be provided.",
+    "coords": {
+      "l": 36.09,
+      "t": 284.91,
+      "r": 573.03,
+      "b": 229.39,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "The environmental review applies to the following definitions:",
+    "coords": {
+      "l": 36.09,
+      "t": 218.66,
+      "r": 335.03,
+      "b": 208.87,
+      "page": 2
+    }
+  },
+  {
+    "type": "text",
+    "content": "Basic Review: A tabular desktop report which forms the basis of any higher level of review used to determine if further review is required. It is generally done as a desktop review using proposed development plans, identification of riparian areas, air photos, databases, and literature review by a qualified environmental professional. A site visit is not required for the preparation of a Basic Review. Once a Basic Review is completed and submitted to the County, a meeting may be required with a County representative on-site to discuss the proposed project, issues of concern and recommendations regarding the need for further review or if further review is deemed necessary.",
+    "coords": {
+      "l": 36.1,
+      "t": 198.13,
+      "r": 577.55,
+      "b": 101.12,
+      "page": 2
+    }
+  }
+]

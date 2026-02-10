@@ -1,0 +1,68 @@
+[
+  {
+    "type": "text",
+    "content": "PART 6: DEFINITIONS",
+    "coords": {
+      "l": 227.04,
+      "t": 764.14,
+      "r": 384.91,
+      "b": 748.33,
+      "page": 1
+    }
+  },
+  {
+    "type": "text",
+    "content": "C",
+    "coords": {
+      "l": 302.28,
+      "t": 729.97,
+      "r": 309.71,
+      "b": 717.64,
+      "page": 1
+    }
+  },
+  {
+    "type": "table_row_collection",
+    "rows": [
+      [
+        "Caliper",
+        "the trunk diameter of a tree measured at a point300mmabove the top of the root ball."
+      ],
+      [
+        "Campground",
+        "the development of land for the seasonal short term use of holiday trailers, motor homes, tents, campers and recreational vehicles, and shall not be used as year round storage or accommodation for residential use."
+      ],
+      [
+        "Cannabis",
+        "any part of a cannabis plant, including the phytocannabinoids produced by, or found in, such a plant, regardless of whether that part has been processed or not, and any other substance defined as cannabis in the Cannabis Act (Canada) and its regulations, as amended from time to time, and includes edible products."
+      ],
+      [
+        "Cannabis Accessory",
+        "accessory products for the use and consumption of cannabis, as defined in the Cannabis Act (Canada) and its regulations as amended from time to time and includes, but is not limited to: rolling papers or wraps, holders, pipes, water pipes, bongs, vaporizers, or similar products."
+      ],
+      [
+        "Cannabis Production and Processing",
+        "a development where the primary purpose of the facility is the production and distribution of cannabis that is authorized by provincial or federal legislation. This Use does not include Retail Store (Cannabis) or any other cannabis related uses."
+      ],
+      [
+        "Cemetery",
+        "a development for the entombment of the deceased, whichmay include, but is not limited to the following accessory development: crematories, cineraria, columbaria, and mausoleums. Cemeteries may include, but are not limited to, memorial parks, burial grounds and gardens of remembrance."
+      ],
+      [
+        "Certificate of Compliance",
+        "the endorsement by the Development Authority of a survey document indicating that the development on any given area of land is in compliance with Our Zoning Blueprint ."
+      ],
+      [
+        "Certificate of Title",
+        "a certificate issued by the land titles office identifying the owner of a particular area of land and any registered encumbrances on the land."
+      ]
+    ],
+    "coords": {
+      "l": 111.89,
+      "t": 679.41,
+      "r": 547.1,
+      "b": 142.02,
+      "page": 1
+    }
+  }
+]
